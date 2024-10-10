@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/539e7714add646869f056c7a7a847492/artifacts
+end_time: 1728401812762
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: 539e7714add646869f056c7a7a847492
+run_name: languid-pug-719
+run_uuid: 539e7714add646869f056c7a7a847492
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728401812747
+status: 4
+tags: []
+user_id: macbookpro

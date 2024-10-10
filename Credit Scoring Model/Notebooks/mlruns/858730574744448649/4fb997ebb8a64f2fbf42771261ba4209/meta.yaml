@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credit%20Scoring%20Model/Notebooks/mlruns/858730574744448649/4fb997ebb8a64f2fbf42771261ba4209/artifacts
+end_time: 1728473021336
+entry_point_name: ''
+experiment_id: '858730574744448649'
+lifecycle_stage: active
+run_id: 4fb997ebb8a64f2fbf42771261ba4209
+run_name: popular-fawn-686
+run_uuid: 4fb997ebb8a64f2fbf42771261ba4209
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728473013599
+status: 3
+tags: []
+user_id: macbookpro

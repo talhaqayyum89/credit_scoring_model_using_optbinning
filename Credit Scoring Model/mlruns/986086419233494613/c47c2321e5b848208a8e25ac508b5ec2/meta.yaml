@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/c47c2321e5b848208a8e25ac508b5ec2/artifacts
+end_time: 1728398657871
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: c47c2321e5b848208a8e25ac508b5ec2
+run_name: zealous-flea-524
+run_uuid: c47c2321e5b848208a8e25ac508b5ec2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728398655262
+status: 3
+tags: []
+user_id: macbookpro

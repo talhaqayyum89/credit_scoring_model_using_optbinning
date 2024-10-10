@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/12dcaf0d21cf49658d894911f51c1821/artifacts
+end_time: 1728395403288
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: 12dcaf0d21cf49658d894911f51c1821
+run_name: intelligent-lynx-825
+run_uuid: 12dcaf0d21cf49658d894911f51c1821
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728395400790
+status: 3
+tags: []
+user_id: macbookpro

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/6abe08f02d2e49c2ab0c9af04505140b/artifacts
+end_time: 1728401480327
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: 6abe08f02d2e49c2ab0c9af04505140b
+run_name: exultant-crane-464
+run_uuid: 6abe08f02d2e49c2ab0c9af04505140b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728401472539
+status: 3
+tags: []
+user_id: macbookpro

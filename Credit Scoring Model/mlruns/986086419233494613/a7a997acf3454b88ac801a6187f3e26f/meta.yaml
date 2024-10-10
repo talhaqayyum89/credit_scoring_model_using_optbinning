@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/a7a997acf3454b88ac801a6187f3e26f/artifacts
+end_time: 1728403471037
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: a7a997acf3454b88ac801a6187f3e26f
+run_name: dashing-stoat-892
+run_uuid: a7a997acf3454b88ac801a6187f3e26f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728403463522
+status: 3
+tags: []
+user_id: macbookpro

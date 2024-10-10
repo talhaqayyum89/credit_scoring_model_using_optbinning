@@ -1,0 +1,19 @@
+artifact_path: credit_scoring_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.5.0
+model_uuid: ee72419618ea40768ddfaa1d07c4027e
+run_id: 71a5971d4b0941838cee805ce8292ed9
+utc_time_created: '2024-10-08 15:23:29.592940'

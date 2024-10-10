@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/e210e4278e2a41529cd4be921060b2be/artifacts
+end_time: 1728401025364
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: e210e4278e2a41529cd4be921060b2be
+run_name: auspicious-eel-368
+run_uuid: e210e4278e2a41529cd4be921060b2be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728401022244
+status: 3
+tags: []
+user_id: macbookpro

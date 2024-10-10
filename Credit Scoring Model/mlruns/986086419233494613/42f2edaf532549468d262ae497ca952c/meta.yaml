@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/42f2edaf532549468d262ae497ca952c/artifacts
+end_time: 1728412741738
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: 42f2edaf532549468d262ae497ca952c
+run_name: worried-mouse-652
+run_uuid: 42f2edaf532549468d262ae497ca952c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728412733524
+status: 3
+tags: []
+user_id: macbookpro

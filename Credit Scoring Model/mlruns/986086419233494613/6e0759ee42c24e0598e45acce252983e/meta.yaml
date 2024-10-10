@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/6e0759ee42c24e0598e45acce252983e/artifacts
+end_time: 1728409208384
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: 6e0759ee42c24e0598e45acce252983e
+run_name: masked-newt-212
+run_uuid: 6e0759ee42c24e0598e45acce252983e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728409200491
+status: 3
+tags: []
+user_id: macbookpro

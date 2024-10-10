@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/ac9d3754f31646b0b19fd04f4c4d279f/artifacts
+end_time: 1728399186310
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: ac9d3754f31646b0b19fd04f4c4d279f
+run_name: unequaled-dog-488
+run_uuid: ac9d3754f31646b0b19fd04f4c4d279f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728399183874
+status: 3
+tags: []
+user_id: macbookpro

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credit%20Scoring%20Model/Notebooks/mlruns/858730574744448649/b79e8f3fb2cf44a982d78d33568d6df1/artifacts
+end_time: 1728473314005
+entry_point_name: ''
+experiment_id: '858730574744448649'
+lifecycle_stage: active
+run_id: b79e8f3fb2cf44a982d78d33568d6df1
+run_name: selective-crane-865
+run_uuid: b79e8f3fb2cf44a982d78d33568d6df1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728473307964
+status: 3
+tags: []
+user_id: macbookpro

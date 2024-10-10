@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/74996f05669f4a97b77490e471c4d783/artifacts
+end_time: 1728402815223
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: 74996f05669f4a97b77490e471c4d783
+run_name: salty-elk-770
+run_uuid: 74996f05669f4a97b77490e471c4d783
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728402807336
+status: 3
+tags: []
+user_id: macbookpro

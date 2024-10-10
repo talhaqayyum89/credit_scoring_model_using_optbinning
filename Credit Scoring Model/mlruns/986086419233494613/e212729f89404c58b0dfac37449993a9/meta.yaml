@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/e212729f89404c58b0dfac37449993a9/artifacts
+end_time: 1728403138651
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: e212729f89404c58b0dfac37449993a9
+run_name: adorable-bee-821
+run_uuid: e212729f89404c58b0dfac37449993a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728403130306
+status: 3
+tags: []
+user_id: macbookpro

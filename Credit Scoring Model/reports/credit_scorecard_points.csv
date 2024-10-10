@@ -1,0 +1,57 @@
+Variable,Bin,Points
+months_loan_duration,"(-inf, 7.50)",108.08896063491869
+months_loan_duration,"[7.50, 11.50)",89.95272711447579
+months_loan_duration,"[11.50, 17.00)",86.93537141874789
+months_loan_duration,"[17.00, 26.50)",82.44520629766721
+months_loan_duration,"[26.50, 33.00)",80.75300773706192
+months_loan_duration,"[33.00, 43.50)",68.88383053645404
+months_loan_duration,"[43.50, inf)",57.6658035153782
+months_loan_duration,Special,81.860992560391
+months_loan_duration,Missing,81.860992560391
+credit_history,['critical'],117.13665855642066
+credit_history,['delayed'],86.15755211596445
+credit_history,['repaid'],75.31597319752784
+credit_history,['fully repaid this bank' 'fully repaid'],31.149633563542665
+credit_history,Special,81.860992560391
+credit_history,Missing,81.860992560391
+purpose,['retraining' 'car (used)'],111.98731387802016
+purpose,['radio/tv'],104.08187370174778
+purpose,['furniture' 'repairs'],85.00353579118378
+purpose,['business'],65.24661312512605
+purpose,['car (new)' 'domestic appliances'],63.05999222323167
+purpose,['education' 'others'],44.91677287470707
+purpose,Special,81.860992560391
+purpose,Missing,81.860992560391
+amount,"(-inf, 1387.00)",77.31769407344099
+amount,"[1387.00, 3554.00)",94.95325221454632
+amount,"[3554.00, 3913.50)",138.12924718410488
+amount,"[3913.50, 7839.50)",72.42439464463332
+amount,"[7839.50, inf)",42.041479015765944
+amount,Special,81.860992560391
+amount,Missing,81.860992560391
+savings_balance,"(-inf, 17.50)",83.66030946720863
+savings_balance,"[17.50, 44.50)",66.51760576207741
+savings_balance,"[44.50, 55.50)",47.63584669313258
+savings_balance,"[55.50, 90.50)",77.09584634528647
+savings_balance,"[90.50, 480.50)",82.77297078115187
+savings_balance,"[480.50, 814.00)",98.21104798808719
+savings_balance,"[814.00, inf)",122.40341943508042
+savings_balance,Special,81.860992560391
+savings_balance,Missing,81.860992560391
+savings_to_amount_ratio,"(-inf, 0.00)",69.80755555009556
+savings_to_amount_ratio,"[0.00, 0.01)",75.8336859865472
+savings_to_amount_ratio,"[0.01, 0.05)",80.62598187872007
+savings_to_amount_ratio,"[0.05, 0.09)",82.47276181192812
+savings_to_amount_ratio,"[0.09, 0.18)",86.5875357354657
+savings_to_amount_ratio,"[0.18, 0.98)",87.56257375499784
+savings_to_amount_ratio,"[0.98, inf)",101.19617772186916
+savings_to_amount_ratio,Special,81.860992560391
+savings_to_amount_ratio,Missing,81.860992560391
+loan_duration_to_employment_length,"(-inf, 1.27)",101.05822258958608
+loan_duration_to_employment_length,"[1.27, 2.43)",94.30433585675665
+loan_duration_to_employment_length,"[2.43, 3.40)",88.66243154129587
+loan_duration_to_employment_length,"[3.40, 4.35)",85.67346743298374
+loan_duration_to_employment_length,"[4.35, 12.26)",78.13831639940092
+loan_duration_to_employment_length,"[12.26, inf)",56.782908787378005
+loan_duration_to_employment_length,Special,81.860992560391
+loan_duration_to_employment_length,Missing,81.860992560391

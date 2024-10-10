@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/a54519eeb7e54b7ba59aa5600087bbac/artifacts
+end_time: 1728412615223
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: a54519eeb7e54b7ba59aa5600087bbac
+run_name: redolent-sow-687
+run_uuid: a54519eeb7e54b7ba59aa5600087bbac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728412606936
+status: 3
+tags: []
+user_id: macbookpro

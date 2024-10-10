@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/63b46fa156694828b283ca66a54b9c6c/artifacts
+end_time: 1728394783604
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: 63b46fa156694828b283ca66a54b9c6c
+run_name: delightful-shad-181
+run_uuid: 63b46fa156694828b283ca66a54b9c6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728394781061
+status: 3
+tags: []
+user_id: macbookpro

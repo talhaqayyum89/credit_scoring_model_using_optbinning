@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/2a5baf3743bf4e2e9c439c87743eaab8/artifacts
+end_time: 1728397575112
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: 2a5baf3743bf4e2e9c439c87743eaab8
+run_name: learned-carp-829
+run_uuid: 2a5baf3743bf4e2e9c439c87743eaab8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728397572429
+status: 3
+tags: []
+user_id: macbookpro

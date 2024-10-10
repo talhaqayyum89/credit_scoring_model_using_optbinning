@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credit%20Scoring%20Model/Notebooks/mlruns/858730574744448649/8edae179f9164c16b5627e20d40fc470/artifacts
+end_time: 1728463513217
+entry_point_name: ''
+experiment_id: '858730574744448649'
+lifecycle_stage: active
+run_id: 8edae179f9164c16b5627e20d40fc470
+run_name: agreeable-calf-480
+run_uuid: 8edae179f9164c16b5627e20d40fc470
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728463504997
+status: 3
+tags: []
+user_id: macbookpro

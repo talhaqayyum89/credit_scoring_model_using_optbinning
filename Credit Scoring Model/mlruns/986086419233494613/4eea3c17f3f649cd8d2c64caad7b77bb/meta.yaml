@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/macbookpro/Documents/Applications/Fairmoney/Credti%20Scoring%20Model/mlruns/986086419233494613/4eea3c17f3f649cd8d2c64caad7b77bb/artifacts
+end_time: 1728399066244
+entry_point_name: ''
+experiment_id: '986086419233494613'
+lifecycle_stage: active
+run_id: 4eea3c17f3f649cd8d2c64caad7b77bb
+run_name: burly-gnu-469
+run_uuid: 4eea3c17f3f649cd8d2c64caad7b77bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728399064076
+status: 3
+tags: []
+user_id: macbookpro
