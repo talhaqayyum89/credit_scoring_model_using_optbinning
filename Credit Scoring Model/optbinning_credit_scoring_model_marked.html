@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Credit Scoring Model Report</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>optbinning_credit_scoring_model_marked</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -16418,6 +16418,18 @@ Test features: (300, 27), Test Target: (300,)
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><strong>Optbinning</strong> is a library that help in develop credit scorecard quickly and save a lot of time in creating optimal bins, credit score calculation, and credit score mapping based on customer records.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -22640,20 +22652,6 @@ class="
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Non-Calibrated Brier Score (Scorecard): 0.1990
-Platt Scaling Brier Score: 0.1864
-Isotonic Regression Brier Score: 0.1862
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
 
 
 <div class="jp-RenderedImage jp-OutputArea-output ">
@@ -22665,10 +22663,141 @@ class="
 
 </div>
 
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Model</th>
+      <th>AUC-ROC Train</th>
+      <th>AUC-ROC Test</th>
+      <th>Precision Train</th>
+      <th>Precision Test</th>
+      <th>Recall Train</th>
+      <th>Recall Test</th>
+      <th>Gini Train</th>
+      <th>Gini Test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Scorecard</td>
+      <td>0.802273</td>
+      <td>0.751985</td>
+      <td>0.540925</td>
+      <td>0.504348</td>
+      <td>0.727273</td>
+      <td>0.637363</td>
+      <td>0.604547</td>
+      <td>0.503970</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Platt</td>
+      <td>0.789006</td>
+      <td>0.704874</td>
+      <td>0.703704</td>
+      <td>0.680000</td>
+      <td>0.272727</td>
+      <td>0.186813</td>
+      <td>0.578012</td>
+      <td>0.409748</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Isotonic</td>
+      <td>0.802839</td>
+      <td>0.707713</td>
+      <td>0.705882</td>
+      <td>0.580000</td>
+      <td>0.459330</td>
+      <td>0.318681</td>
+      <td>0.605677</td>
+      <td>0.415427</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 </div>
 
 </div>
 
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The calibration plot shows the performance of the non-calibrated <strong>Scorecard model</strong> (in blue) and the calibrated versions using <strong>Platt scaling</strong> (green) and <strong>Isotonic regression</strong> (red). Here's a breakdown of what's happening:</p>
+<ol>
+<li><p><strong>Brier Score</strong>: The Brier score measures the mean squared difference between predicted probabilities and the actual outcomes (closer to 0 is better).</p>
+<ul>
+<li><p><strong>Non-calibrated Scorecard</strong>: Brier score = 0.199</p>
+</li>
+<li><p><strong>Platt and Isotonic Calibrations</strong>: Both have the same Brier score = 0.186 (better than the scorecard).</p>
+</li>
+</ul>
+<p>This means the <strong>calibrated models</strong> are more accurate in probability prediction overall (based on Brier score), but this doesn’t necessarily correlate to better classification metrics like precision or recall.</p>
+</li>
+<li><p><strong>Calibration Curve</strong>: The dashed line represents perfect calibration, where predicted probabilities exactly match true probabilities.</p>
+<ul>
+<li><p>The <strong>non-calibrated Scorecard</strong> (blue) shows some miscalibration (below the diagonal), especially in the mid-range of predicted probabilities. It tends to <strong>underestimate</strong> probabilities for many classes.</p>
+</li>
+<li><p><strong>Platt</strong> (green) and <strong>Isotonic</strong> (red) are closer to the diagonal in some regions, showing better calibration in terms of aligning predicted probabilities with actual outcomes.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Why did calibration weaken performance?</strong></p>
+<ul>
+<li><strong>Calibration improves probability estimates</strong>, but it doesn’t always improve classification performance. For instance, a model may be better at ranking positive and negative instances (AUC-ROC, Gini) without necessarily outputting perfectly calibrated probabilities.</li>
+<li><p>In your table, the Scorecard model performs better in terms of <strong>AUC-ROC, recall, and Gini</strong>, but it suffers from less accurate probability estimates, as seen from its higher Brier score.</p>
+</li>
+<li><p>The <strong>Platt and Isotonic calibrated models</strong> may have improved the probability estimates (lower Brier score) but at the cost of <strong>classification power</strong>, which affects metrics like AUC-ROC and recall. This happens because:</p>
+<ul>
+<li>Calibration methods like Platt and Isotonic can adjust probability thresholds and squeeze out some of the ranking benefits of the original model.</li>
+<li>Especially with <strong>Platt scaling</strong>, it can affect high-confidence predictions, which may lower AUC-ROC.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="Summary:">Summary:<a class="anchor-link" href="#Summary:">&#182;</a></h3><ul>
+<li><strong>Scorecard</strong> performs better as a classification tool (higher AUC, recall) but gives less reliable probability estimates (higher Brier score).</li>
+<li><strong>Calibrated models (Platt, Isotonic)</strong> have more accurate probabilities (lower Brier score) but trade off classification performance, leading to weaker AUC-ROC and recall results.</li>
+<li>We will use our base model scorecard model for scorecard generation.</li>
+</ul>
+<p>Calibration isn't always about improving all performance metrics but is focused on refining the predicted probabilities.</p>
+
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -24569,6 +24698,17 @@ class="
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Final-Scorecard-Profile"><strong>Final Scorecard Profile</strong><a class="anchor-link" href="#Final-Scorecard-Profile">&#182;</a></h3>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -25883,6 +26023,22 @@ class="
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">final_df</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s2">"/Users/macbookpro/Documents/Applications/Fairmoney/Credit Scoring Model/reports/final credit report with creditscores.xlsx"</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
      </div>
